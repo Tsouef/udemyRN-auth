@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "extends": "rallycoding",
+  "rules": {
+    "react/require-extension": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ios.js", ".android.js"]
+      }
+    }
+  },
+  "env": {
+    "node": true,
+  }
+}
