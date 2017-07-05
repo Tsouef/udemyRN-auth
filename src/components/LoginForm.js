@@ -53,7 +53,7 @@ class LoginForm extends Component {
       <Card>
         <CardSection>
           <Input
-            value={this.state.text}
+            value={this.state.email}
             onChangeText={email => this.setState({ email })}
             label="Email"
             placeholder='user@gmail.com'
